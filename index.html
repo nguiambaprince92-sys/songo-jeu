@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songo Traditionnel Camerounais</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+             🪵
+        </div>
+
+        <div class="titre-site">
+            <h1>NGUIAMBA MIFOUNDI JACQUES PRINCE 24F2840</h1>
+            <p>SONGO TRADITIONNEL</p>
+        </div>
+
+    </header>
+
+    <section id="infos">
+
+        <div class="info-card">
+            👤 Joueur actuel :
+            <span id="joueurActuel">Noir</span>
+        </div>
+
+        <div class="info-card">
+            ⚫ Score Noir :
+            <span id="scoreNoir">0</span>
+        </div>
+
+        <div class="info-card">
+            ⚪ Score Blanc :
+            <span id="scoreBlanc">0</span>
+        </div>
+
+    </section>
+
+    <main>
+
+        <section class="zone-jeu">
+
+            <h2>Plateau de jeu</h2>
+
+            <div id="plateau">
+
+                <div class="ligne" id="ligneBlanche"></div>
+
+                <div class="ligne" id="ligneNoire"></div>
+
+            </div>
+
+        </section>
+
+        <section class="actions">
+
+            <button onclick="nouvellePartie()">
+                🔄 Nouvelle Partie
+            </button>
+
+        </section>
+
+        <section>
+
+            <div id="message"></div>
+
+        </section>
+
+        <section class="regles">
+
+            <h2>Règles du Songo</h2>
+
+            <ul>
+                <li>Chaque joueur possède 7 cases.</li>
+
+                <li>Chaque case contient 5 jetons au départ.</li>
+
+                <li>Le joueur choisit une case de son camp et distribue tous les jetons.</li>
+
+                <li>Le relais continue lorsque la case suivante appartient au joueur actif.</li>
+
+                <li>Les captures se font dans le camp adverse.</li>
+
+                <li>Le premier joueur à atteindre 36 jetons gagne la partie.</li>
+            </ul>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+           Jeu Songo Traditionnel Camerounais
+        </p>
+
+        <p>
+            accès ouverts 
+        </p>
+
+        <p>
+            application libre
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
